@@ -4,6 +4,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from "./utils/layouts.jsx";
 import Error from "./Pages/Error/Error.jsx";
 import Home from "./Pages/Home/Home.jsx";
+import Girl from "./Pages/Girl/Girl.jsx";
+import Boy from "./Pages/Boy/Boy.jsx";
+import Solo from "./Pages/Solo/Solo.jsx";
+import Inquire from "./Pages/Inquire/Inquire.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -15,6 +19,22 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: '/girl',
+        element: <Girl />,
+      },
+      {
+        path: '/boy',
+        element: <Boy />,
+      },
+      {
+        path: '/solo',
+        element: <Solo />,
+      },
+      {
+        path: '/inquire',
+        element: <Inquire />,
       },
     ],
   },
