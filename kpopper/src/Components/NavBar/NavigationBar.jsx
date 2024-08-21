@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import lollipopColor from '../../assets/lollipop_color.svg';
 
 export default function Example() {
   return (
@@ -8,35 +9,37 @@ export default function Example() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img
-                alt="Your Company"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
-              />
+              <a href="/" aria-label="Home">
+                <img
+                  alt="The KPOPPER"
+                  src= {lollipopColor}
+                  className="h-8 w-auto"
+                />
+              </a>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                <a href="#" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">
-                  Dashboard
+                <a href="/" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">
+                  Home
                 </a>
                 <a
-                  href="#"
+                  href="girl"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                 >
-                  Team
+                  Girl Groups
                 </a>
                 <a
-                  href="#"
+                  href="boy"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                 >
-                  Projects
+                  Boy Groups
                 </a>
                 <a
-                  href="#"
+                  href="solo"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                 >
-                  Calendar
+                  Soloists
                 </a>
               </div>
             </div>

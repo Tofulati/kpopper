@@ -3,7 +3,7 @@ import Search from "../../Components/SearchBar/Search.jsx"
 export default function HeroSection() {
     return (
         <div className="overflow-hidden">
-            <div className="flex-col bg-white h-screen w-screen flex items-center justify-center h-[80vh] gap-5">
+            <div className="flex-col bg-white h-screen w-screen flex items-center justify-center h-[70vh] gap-5">
                 <div className="flex items-center justify-center w-screen">
                     <main className="text-center w-screen max-w-xl">
                         <h1 className="font-bold text-6xl mb-4">
