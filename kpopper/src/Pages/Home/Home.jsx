@@ -2,7 +2,7 @@ import HeroSection from "./HeroSection"
 
 const Home = () => {
     return (
-        <div className="bg-white">
+        <div className="bg-white overflow-hidden">
             <HeroSection />
         </div>
     );
