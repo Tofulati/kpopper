@@ -6,7 +6,8 @@ const people = [
         name: 'BTS',
         title: 'Big Hit',
         role: 'KPOP',
-        imageUrl: BTSimg
+        imageUrl: BTSimg,
+        redirectUrl: "/bts"
     }
 ]
 

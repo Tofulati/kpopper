@@ -6,7 +6,8 @@ const people = [
         name: 'IU',
         title: 'Kakao',
         role: 'KPOP/R&B Soul',
-        imageUrl: IUimg
+        imageUrl: IUimg,
+        redirectUrl: "/iu"
     }
 ]
 

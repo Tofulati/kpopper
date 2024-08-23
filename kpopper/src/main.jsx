@@ -8,6 +8,9 @@ import Girl from "./Pages/Girl/Girl.jsx";
 import Boy from "./Pages/Boy/Boy.jsx";
 import Solo from "./Pages/Solo/Solo.jsx";
 import Inquire from "./Pages/Inquire/Inquire.jsx";
+import NMIXX from "./Pages/Girl/Groups/NMIXX.jsx";
+import IU from "./Pages/Solo/Groups/IU.jsx";
+import BTS from "./Pages/Boy/Groups/BTS.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -35,6 +38,18 @@ const router = createBrowserRouter([
       {
         path: '/inquire',
         element: <Inquire />,
+      },
+      {
+        path: '/iu',
+        element: <IU />,
+      },
+      {
+        path: '/nmixx',
+        element: <NMIXX />,
+      },
+      {
+        path: '/bts',
+        element: <BTS />,
       },
     ],
   },

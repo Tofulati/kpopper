@@ -6,7 +6,8 @@ const people = [
         name: 'NMIXX',
         title: 'JYP',
         role: 'KPOP',
-        imageUrl: NMIXXimg
+        imageUrl: NMIXXimg,
+        redirectUrl: "/nmixx"
     }
 ]
 
