@@ -1,5 +1,5 @@
 import Module from "../../Components/Module/Module.jsx"
-import IUimg from "../../../../Data/Soloists/assets/IU.jpg"
+import IUimg from "../../../../Data/Soloists/assets/IU/IU.jpg"
 
 const people = [
     {

@@ -39,9 +39,9 @@
 // export default Background;
 
 import React from "react";
-import NMIXXimg from "../../../../Data/Girl/assets/NMIXX.jpg";
-import BTSimg from "../../../../Data/Boy/assets/BTS.jpg";
-import IUimg from "../../../../Data/Soloists/assets/IU.jpg";
+import NMIXXimg from "../../../../Data/Girl/assets/NMIXX/NMIXX.jpg";
+import BTSimg from "../../../../Data/Boy/assets/BTS/BTS.jpg";
+import IUimg from "../../../../Data/Soloists/assets/IU/IU.jpg";
 
 // Utility function to shuffle an array
 const shuffleArray = (array) => {

@@ -1,5 +1,5 @@
 import Module from "../../Components/Module/Module.jsx"
-import BTSimg from "../../../../Data/Boy/assets/BTS.jpg"
+import BTSimg from "../../../../Data/Boy/assets/BTS/BTS.jpg"
 
 const people = [
     {

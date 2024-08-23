@@ -1,5 +1,5 @@
 import Module from "../../Components/Module/Module.jsx"
-import NMIXXimg from "../../../../Data/Girl/assets/NMIXX.jpg"
+import NMIXXimg from "../../../../Data/Girl/assets/NMIXX/NMIXX.jpg"
 
 const people = [
     {
