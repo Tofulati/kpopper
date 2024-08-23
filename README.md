@@ -10,6 +10,7 @@ Within this web app, you will be able to learn more about any K-pop group. Withi
   - Calendar (Nonfunctional)
   - Name
   - Images
+- See current members of each group
 - Home page
   - Search bar (Nonfunctional)
 
@@ -23,6 +24,11 @@ Within this web app, you will be able to learn more about any K-pop group. Withi
   - [ ] "Newspage" with information (Twitter)
   - [ ] Members display
   - [ ] Total discography
+- [x] Member component
+  - [x] Name
+  - [x] Position
+  - [x] Time in group
+  - [x] Image
 - [ ] Develop a scrapper to JSON file to find KPOP group info
   - [ ] Name
   - [ ] Company
